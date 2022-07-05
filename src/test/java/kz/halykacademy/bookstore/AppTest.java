@@ -1,4 +1,4 @@
-package org.example;
+package kz.halykacademy.bookstore;
 
 import static org.junit.Assert.assertTrue;
 
