@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82dc5d6c-5099-471d-b80d-ebcf0795f6ab" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/halykacademy/bookstore/controller/AuthorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/halykacademy/bookstore/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/halykacademy/bookstore/controller/PublisherController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/halykacademy/bookstore/provider/AuthorProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/halykacademy/bookstore/provider/BookProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/halykacademy/bookstore/provider/PublisherProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/halykacademy/bookstore/model/Publisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/halykacademy/bookstore/model/Publisher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/halykacademy/bookstore/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/halykacademy/bookstore/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -74,7 +80,7 @@
       <workItem from="1656964612078" duration="2074000" />
       <workItem from="1657023069772" duration="536000" />
       <workItem from="1657273449240" duration="166000" />
-      <workItem from="1657273626854" duration="48000" />
+      <workItem from="1657273626854" duration="867000" />
     </task>
     <servers />
   </component>
