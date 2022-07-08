@@ -6,17 +6,17 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class Book {
     private long id;
     private double price;
-    private List<Author> authors;
+    private List<Author> authorList;
     private Publisher publisher;
     private String title;
     private int numOfPages;
     private int year;
     private static final AtomicInteger idCount = new AtomicInteger(0);
 
-    public Book(double price, List<Author> authors, Publisher publisher, String title, int numOfPages, int year) {
+    public Book(double price, List<Author> authorList, Publisher publisher, String title, int numOfPages, int year) {
         this.id = idCount.incrementAndGet();
         this.price = price;
-        this.authors = authors;
+        this.authorList = authorList;
         this.publisher = publisher;
         this.title = title;
         this.numOfPages = numOfPages;
@@ -35,12 +35,12 @@ public class Book {
         this.price = price;
     }
 
-    public List<Author> getAuthors() {
-        return authors;
+    public List<Author> getAuthorList() {
+        return authorList;
     }
 
-    public void setAuthors(List<Author> authors) {
-        this.authors = authors;
+    public void setAuthorList(List<Author> authorList) {
+        this.authorList = authorList;
     }
 
     public Publisher getPublisher() {
@@ -80,7 +80,7 @@ public class Book {
         return "Book{" +
                 "id=" + id +
                 ", price=" + price +
-                ", authors=" + authors +
+                ", authors=" + authorList +
                 ", publisher=" + publisher +
                 ", title='" + title + '\'' +
                 ", numOfPages=" + numOfPages +
