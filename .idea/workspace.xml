@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82dc5d6c-5099-471d-b80d-ebcf0795f6ab" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/halykacademy/bookstore/service/BookService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/halykacademy/bookstore/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/halykacademy/bookstore/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/halykacademy/bookstore/controller/AuthorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/halykacademy/bookstore/provider/AuthorProviderImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/halykacademy/bookstore/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/halykacademy/bookstore/provider/BookProviderImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/halykacademy/bookstore/controller/PublisherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/halykacademy/bookstore/provider/PublisherProviderImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -48,19 +54,6 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -72,7 +65,8 @@
       <workItem from="1656964612078" duration="2074000" />
       <workItem from="1657023069772" duration="536000" />
       <workItem from="1657273449240" duration="166000" />
-      <workItem from="1657273626854" duration="5284000" />
+      <workItem from="1657273626854" duration="6230000" />
+      <workItem from="1657904777422" duration="3436000" />
     </task>
     <servers />
   </component>

@@ -1,13 +1,12 @@
-package kz.halykacademy.bookstore.controller;
+package kz.halykacademy.bookstore.provider;
 
 import kz.halykacademy.bookstore.model.Book;
 import kz.halykacademy.bookstore.model.Publisher;
-import kz.halykacademy.bookstore.provider.BookProvider;
 
 import java.util.Collections;
 import java.util.List;
 
-public class BookController implements BookProvider {
+public class BookProviderImpl implements BookProvider {
 
     private static List<Book> books = List.of(
             new Book(19.99, Collections.emptyList(), new Publisher("Publisher 1", Collections.emptyList()),

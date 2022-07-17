@@ -1,13 +1,12 @@
-package kz.halykacademy.bookstore.controller;
+package kz.halykacademy.bookstore.provider;
 
 import kz.halykacademy.bookstore.model.Author;
-import kz.halykacademy.bookstore.provider.AuthorProvider;
 
 import java.time.LocalDate;
 import java.util.Collections;
 import java.util.List;
 
-public class AuthorController implements AuthorProvider {
+public class AuthorProviderImpl implements AuthorProvider {
 
     private static List<Author> authors = List.of(
             new Author("Surname1", "Name1", "Patronymic1",
